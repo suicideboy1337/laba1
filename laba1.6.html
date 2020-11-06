@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form>
+        <p>Имя <input type="text" /><br></p>
+        <p>Фамилия <input type="text" /><br></p>
+        <p>Отчество<input type="text" /><br></p>
+            <input type="submit" value="Окей" /><br>
+        </form>
+        <p>
+        Следующая форма
+        </p>
+
+        <form>
+            <input type="number" placeholder="тут нужна какая-нибудь цифра" />
+            <p>
+                <input type="checkbox" />
+                <span>Я гей</span>
+            </p>
+            <input type="submit" value="Окей" />
+        </form>
+        
+        <h1>Registration</h1>
+        <form>
+            <p>
+                <span>Пол </span>
+                <input name="pol" type="radio" required />
+                <span>Мужской</span>
+                <input name="pol" type="radio" required />
+                <span>Женский</span>
+  
+            </p>
+            <p>Имя <input type="text" required minlength="3" /></p>
+            
+            <p>Фамилия <input type="text" required minlength="3" /></p>
+            
+            <p>Отчество <input type="text" minlength="3" /></p>
+            
+            <p>Cколько лет <input type="number" required /></p>
+            
+            <p>Телефон <input type="tel" placeholder="8(9**)*******" required /></p>
+            
+            <p>Электронная почта <input type="email" placeholder="example@test.com" required /></p>
+            <p>
+                <span>Группа:</span>
+                <select required>
+                    <option>ЭПИ-11</option>
+                    <option>Других не знаю)</option>
+                </select>
+            </p>
+            <p>Пароль <input type="password" required /></p>
+            <p>Повтор пароля <input type="password" required /></p>
+            <p>
+                <input type="checkbox" required />
+                <span>Учусь платно</span>
+            </p>
+            <input type="submit" value="Зарегистрироваться" />
+        </form>
+    </body>
+</html>
