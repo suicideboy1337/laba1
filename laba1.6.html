@@ -17,8 +17,8 @@
         <form>
             <input type="number" placeholder="тут нужна какая-нибудь цифра" />
             <p>
-                <input type="checkbox" />
-                <span>Да</span>
+                <input type="checkbox" id="yes" />
+                <label for="yes">Да</label>
             </p>
             <input type="submit" value="Окей" />
         </form>
@@ -27,10 +27,10 @@
         <form>
             <p>
                 <span>Пол </span>
-                <input name="pol" type="radio" required />
-                <span>Мужской</span>
-                <input name="pol" type="radio" required />
-                <span>Женский</span>
+                <input name="pol" type="radio" id="sex1" required />
+                <label for="sex1">Мужской</label>
+                <input name="pol" type="radio" id="sex2" required />
+                <label for="sex2">Женский</label>
   
             </p>
             <p>Имя <input type="text" required minlength="3" /></p>
@@ -54,8 +54,8 @@
             <p>Пароль <input type="password" required /></p>
             <p>Повтор пароля <input type="password" required /></p>
             <p>
-                <input type="checkbox" required />
-                <span>Учусь платно</span>
+                <input type="checkbox" id="elita" required />
+                <label for="elita">Учусь платно</label>
             </p>
             <input type="submit" value="Зарегистрироваться" />
         </form>
